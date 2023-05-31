@@ -1,20 +1,13 @@
-# Extraction of Logical Rules with the Mushroom Dataset
+# NLP as a tool for  Mental Health Diagnosis
 
 Author: Eric J. Chan
 
 Date(repo created):  26/5/2023
-Date(began coding):  17/4/2023
+Date(began coding):  1/5/2023
 
 Description:
 
-These are codes and data where for a data science project which studies 
-how well machine learning models can extract logical rules. 
-This stems from my background in Chemistry where logical intuitive rules are extracted 
-from in-situ laboratory experiments. 
-There are also some relevant papers attached.    
+NLP has emerged as a significant area of research in mental health classification. A narrative review of 399 studies from 10,467 records revealed an upward trend in research focused on mental illness detection using NLP. Deep learning methods have demonstrated superior performance compared to traditional machine learning approaches. Topic models have been used to understand differences in language usage between individuals with depression and those without. Data cleansing techniques such as tokenization, stop word removal, handling null entries, punctuation removal, and lemmatization are commonly employed.
 
-This project explores the use of machine learning to extract simple logical rules for distinguishing edible and poisonous mushrooms. The dataset consists of hypothetical samples corresponding to 23 species of gilled mushrooms from the Audubon Field Guide. The objective is to investigate how well machine learning algorithms can extract simple logic, such as logical disjunction (inclusive OR). The project demonstrates that by using the features 'odor' and 'spore print color', it is possible to distinguish if a mushroom is poisonous. Data treatment includes boht non-ordinal and ordinal encoding with the 'odor' feature.
-
-The project utilizes various models, including Logistic Regression, SVM, Naive Bayes, K-Nearest Neighbors (KNN), and Decision Trees. Scoring is done based on accuracy and F1 score, Feature importance is determined through weights with different regularization penalties, and feature selection is performed using Recursive Feature Elimination and SelectFromModel techniques. It is unclear if the logical rule for the 'odor' feature stems from human intuition, but it can be inferred from empirical observations.
-
+EDA techniques such as bar plots, word clouds, and cosine similarity matrices were used to gain insights into the data. Feature engineering techniques such as count vectorization, TF-IDF vectorization, GloVe embeddings, and Latent Dirichlet Allocation (LDA) were employed. Character-level TF-IDF vectors have advantages over word-level representations, and binary classifier models such as Nave Bayes, Logistic Regression, Support Vector Machine, and SGD-Huber were applied to the data. NLP techniques have shown great potential in empowering mental healthcare diagnosis and aiding in the early detection of mental illnesses.
    
